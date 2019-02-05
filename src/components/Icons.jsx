@@ -11,7 +11,7 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faHeart, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faHeart, faLink, faGlobeAfrica } from '@fortawesome/free-solid-svg-icons';
 
 const FontAwesomeIcon = styled(Base)`
   ${space}
@@ -26,7 +26,17 @@ const Instagram = props => <FontAwesomeIcon {...props} icon={faInstagram} />;
 const Envelope = props => <FontAwesomeIcon {...props} icon={faEnvelope} />;
 const Heart = props => <FontAwesomeIcon {...props} icon={faHeart} />;
 const FaLink = props => <FontAwesomeIcon {...props} icon={faLink} />;
+const Globe = props => <FontAwesomeIcon {...props} icon={faGlobeAfrica} />;
 
 export {
-  Facebook, GooglePlus, Linkedin, Skype, Twitter, Instagram, Envelope, Heart, FaLink,
+  Facebook,
+  GooglePlus,
+  Linkedin,
+  Skype,
+  Twitter,
+  Instagram,
+  Envelope,
+  Heart,
+  FaLink,
+  Globe,
 };
